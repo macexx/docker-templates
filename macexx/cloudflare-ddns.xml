@@ -10,7 +10,7 @@
   <Support></Support>
   <Registry>https://registry.hub.docker.com/u/mace/cloudflare-ddns/</Registry>
   <GitHub>https://github.com/macexx/cloudflare-ddns</GitHub>
-  <Repository>mace/cloudflare-ddns/</Repository>
+  <Repository>mace/cloudflare-ddns</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
