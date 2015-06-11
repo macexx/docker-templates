@@ -7,7 +7,7 @@
     Click [b]"Advanced View"[/b] in the upper right corner.[br]
 	Scroll down and change the [b]Environment Variables[/b] to match your CloudFlare details.
   </Description>
-  <Support></Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=40553.0</Support>
   <Registry>https://registry.hub.docker.com/u/mace/cloudflare-ddns/</Registry>
   <GitHub>https://github.com/macexx/cloudflare-ddns</GitHub>
   <Repository>mace/cloudflare-ddns</Repository>
