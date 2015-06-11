@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>CloudFlare</Name>
+  <Description>
+    CloudFlare is a free DNS host that can act as a reverse proxy for websites. Its network protects, speeds up, and improves availability for a website or mobile application with a change in DNS.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    Click [b]"Advanced View"[/b] in the upper right corner.[br]
+	Scroll down and change the [b]Environment Variables[/b] to match your CloudFlare details.
+  </Description>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/mace/cloudflare-ddns/</Registry>
+  <GitHub>https://github.com/macexx/cloudflare-ddns</GitHub>
+  <Repository>mace/cloudflare-ddns/</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>CF_EMAIL</Name>
+      <Value>your@cloudflare_email.com</Value>
+    </Variable>
+	<Variable>
+      <Name>CF_HOST</Name>
+      <Value>sub.domain.com</Value>
+    </Variable>
+	<Variable>
+      <Name>CF_API</Name>
+      <Value>a1b2c3d4e5</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
+      <Mode></Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>http://i.imgur.com/31od8sm.png</Banner>
+  <Icon>http://i.imgur.com/64SzfUu.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:DNS</Category>
+</Containers>
