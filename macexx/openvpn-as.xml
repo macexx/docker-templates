@@ -61,8 +61,8 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>/usr/local/openvpn_as</HostDir>
-      <ContainerDir>path to config</ContainerDir>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/usr/local/openvpn_as</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
