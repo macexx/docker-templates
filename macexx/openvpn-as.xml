@@ -66,7 +66,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:943]/admin</WebUI>
+  <WebUI>https://[IP]:[PORT:943]/admin</WebUI>
   <Banner>http://i.imgur.com/rDp4Joi.png</Banner>
   <Icon>http://img12.deviantart.net/63a9/i/2013/010/6/5/openvpn_icon_by_archeinre-d5r1nls.png</Icon>
   <Beta>True</Beta>
