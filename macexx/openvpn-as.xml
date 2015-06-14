@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>OpenVPN-AS</Name>
+  <Description>
+    OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI,[br]
+	and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments. OpenVPN Access Server supports a wide range of configurations,[br]
+	including secure and granular remote access to internal network and/ or private cloud network resources and applications with fine-grained access control.[br]
+	This version includes two free user licenses.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/usr/local/openvpn_as[/b] This is where OpenVPN will store it´s configuration and data[br]
+    [br]
+    [b][span style='color: #E80000;']Notes[/span][/b][br]
+    [u]Environment Variables[/u][br]
+    Define the variables,[br]
+	ADMIN_PASS (WebUI password),VPN_USER1 and VPN_USER2 (VPN user accounts), VPN_PASS1 and VPN_PASS2 (passwords for VPN user accounts). [br][br]
+    [u]Installation[/u][br]
+	Default Username for the WebUI is [b][span style='color: #E80000;']openvpn[/span][/b].[br]
+    1. Go to https://your_ip/hostname:943/admin[br]
+    2. Login and navigate to "User Permissions" and add the vpn users, matching exactly what you choose for the Environment Variables (VPN_USER1 and VPN_USER2).[br]
+    3. Ports 1194/udp 443/tcp needs to be forwarded and opened in your Firewall/Router. (1194/udp 443/tcp can be changed in the WebUI)[br][br]
+	[u]Configuring OpenVPN Server[/u][br]
+	Go to https://openvpn.net/index.php/access-server/overview.html for HOWTO on setting it up.
+  </Description>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/mace/openvpn-as/</Registry>
+  <GitHub>https://github.com/macexx/openvpn-as</GitHub>
+  <Repository>mace/openvpn-as</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+    <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>ADMIN_PASS</Name>
+      <Value>changeme_webui_pass</Value>
+    </Variable>
+	<Variable>
+      <Name>VPN_USER1</Name>
+      <Value>changeme_vpnuser</Value>
+    </Variable>
+	<Variable>
+      <Name>VPN_PASS1</Name>
+      <Value>changeme_user_pass</Value>
+    </Variable>
+	<Variable>
+      <Name>VPN_USER2</Name>
+      <Value>changeme_vpnuser</Value>
+    </Variable>
+	<Variable>
+      <Name>VPN_PASS2</Name>
+      <Value>changeme_user_pass</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>/usr/local/openvpn_as</HostDir>
+      <ContainerDir>path to config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:943]/admin</WebUI>
+  <Banner>http://i.imgur.com/rDp4Joi.png</Banner>
+  <Icon>http://img12.deviantart.net/63a9/i/2013/010/6/5/openvpn_icon_by_archeinre-d5r1nls.png</Icon>
+  <Beta>True</Beta>
+  <Category>Network:Other</Category>
+  <Date>2015-06-14</Date>
+</Containers>
