@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>Darkstat</Name>
+  <Name>DarkStat</Name>
   <Description>
     Captures network traffic, calculates statistics about usage, and serves reports over HTTP.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
