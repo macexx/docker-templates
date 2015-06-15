@@ -50,8 +50,8 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>/config</HostDir>
-      <ContainerDir>path to config</ContainerDir>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
