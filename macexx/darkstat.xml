@@ -9,8 +9,8 @@
     [b][span style='color: #E80000;']Notes[/span][/b][br]
     [u]Environment Variables[/u][br]
     Define the variables,[br][br]
-	[b]ETH[/b] (Interface, shouldn't need to be changed)[br]
-	[b]PORT[/b] (Port for WebUI, if changed don't forget tochange it in Additional Fields)[br]
+	[b]ETH[/b] (Match your unRAID interface, Don´t use "br0")[br]
+	[b]PORT[/b] (Port for WebUI, if changed don't forget to change it in Additional Fields)[br]
 	[b]IP_HOST[/b] (IP of unRAID server)[br]
 	[b]IP_RANGE[/b] (IP-range of the local network)[br][br]
   </Description>
@@ -33,7 +33,7 @@
   <Environment>
     <Variable>
       <Name>ETH</Name>
-      <Value>br0</Value>
+      <Value>eth0</Value>
     </Variable>
 	<Variable>
       <Name>PORT</Name>
