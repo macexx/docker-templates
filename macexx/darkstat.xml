@@ -9,7 +9,7 @@
     [b][span style='color: #E80000;']Notes[/span][/b][br]
     [u]Environment Variables[/u][br]
     Define the variables,[br][br]
-	[b]ETH[/b] (Match your unRAID interface, Don´t use "br0")[br]
+	[b]ETH[/b] (Match your unRAID interface, don´t use "br0" use eth0, eth1 etc...)[br]
 	[b]PORT[/b] (Port for WebUI, if changed don't forget to change it in Additional Fields)[br]
 	[b]IP_HOST[/b] (IP of unRAID server)[br]
 	[b]IP_RANGE[/b] (IP-range of the local network)[br][br]
