@@ -62,7 +62,7 @@
   <Data>
     <Volume>
       <HostDir>path to config</HostDir>
-      <ContainerDir>/usr/local/openvpn_as</ContainerDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
@@ -71,5 +71,12 @@
   <Icon>http://img12.deviantart.net/63a9/i/2013/010/6/5/openvpn_icon_by_archeinre-d5r1nls.png</Icon>
   <Beta>True</Beta>
   <Category>Network:Other</Category>
+  <Changes>
+    [center][font size=5]OpenVPN-AS Change Log[/font][/center]
+
+    [font size=4]2015.05.19[/font]
+    - Complete rewrite - Last code diden´t survive upgrades of openvpn and sometimes got corrupted on docker rebuilds. New code to better fit Unraid permissions and Phusion template. (Need to set a new config directory).
+
+  </Changes>
   <Date>2015-06-14</Date>
 </Containers>
