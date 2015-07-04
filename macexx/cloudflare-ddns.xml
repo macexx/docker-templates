@@ -49,5 +49,11 @@
   <Icon>http://i.imgur.com/PKa3Sm2.png</Icon>
   <Beta>False</Beta>
   <Category>Network:DNS</Category>
+  <Changes>
+    [center][font size=5]CloudFlare Change Log[/font][/center]
+
+    [font size=4]2015.07.4[/font]
+    - Script is now running as a service, will restart if (cloudflare api or ip "check" service is down).
+  </Changes>
   <Date>2015-06-11</Date>
 </Containers>
