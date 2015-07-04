@@ -75,7 +75,7 @@
     [center][font size=5]OpenVPN-AS Change Log[/font][/center]
 
     [font size=4]2015.07.01[/font]
-    - Complete rewrite - Last code diden´t survive upgrades of openvpn and sometimes got corrupted on docker rebuilds. New code to better fit Unraid permissions and Phusion template. (Need to set a new config directory).
+    - Complete rewrite - Last code diden´t survive upgrades of openvpn and sometimes got corrupted on docker rebuilds. New code to better fit unRAID permissions and Phusion template. (Need to set a new config directory/ or clear old one- if upgrading).
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
