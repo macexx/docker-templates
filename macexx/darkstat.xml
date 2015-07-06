@@ -60,5 +60,11 @@
   <Icon>http://i.imgur.com/pa3eozo.png</Icon>
   <Beta>False</Beta>
   <Category>Network:Management</Category>
+  <Changes>
+    [center][font size=5]Darkstat Change Log[/font][/center]
+
+    [font size=4]2015.07.4[/font]
+    - Darkstat built from source(fixes time error), changed to run as "phusion" service.
+  </Changes>
   <Date>2015-06-15</Date>
 </Containers>
