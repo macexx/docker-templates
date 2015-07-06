@@ -63,7 +63,7 @@
   <Changes>
     [center][font size=5]Darkstat Change Log[/font][/center]
 
-    [font size=4]2015.07.4[/font]
+    [font size=4]2015.07.6[/font]
     - Darkstat built from source(fixes time error), changed to run as "phusion" service.
   </Changes>
   <Date>2015-06-15</Date>
