@@ -65,6 +65,9 @@
 
     [font size=4]2015.07.6[/font]
     - Darkstat built from source(fixes time error), changed to run as "phusion" service.
+
+    [font size=4]2015.08.11[/font]
+    - Update Phusion base-iamge.
   </Changes>
   <Date>2015-06-15</Date>
 </Containers>
