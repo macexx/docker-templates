@@ -54,6 +54,9 @@
 
     [font size=4]2015.07.4[/font]
     - Script is now running as a service, will restart if (cloudflare api or ip "check" service is down).
+
+    [font size=4]2015.08.11[/font]
+    - Update Phusion base-iamge.
   </Changes>
   <Date>2015-06-11</Date>
 </Containers>
