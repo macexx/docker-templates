@@ -66,7 +66,7 @@
     - "INTERFACE" variable added, fixes bond0 issues.
     - openvpn is now running as nobody:users.
 
-    [font size=4]2015.08.15[/font]
+    [font size=4]2015.10.7[/font]
     - Fix error that /mnt/user/(appdata) couldent be used.
   </Changes>
   <Date>2015-06-14</Date>
