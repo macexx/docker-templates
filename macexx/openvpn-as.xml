@@ -59,12 +59,15 @@
     [font size=4]2015.08.11[/font]
     - Update Phusion base-iamge, Update to Openvpn-AS 2.0.20.
 	
-	[font size=4]2015.08.15[/font]
+    [font size=4]2015.08.15[/font]
     - Admin username changed, "admin" and password "openvpn".
     - Default tcp port changed from 443 to 9443.
     - All username/passvord variables removed, now uses internal database.
     - "INTERFACE" variable added, fixes bond0 issues.
     - openvpn is now running as nobody:users.
+
+    [font size=4]2015.08.15[/font]
+    - Fix error that /mnt/user/(appdata) couldent be used.
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
