@@ -68,6 +68,10 @@
 
     [font size=4]2015.10.7[/font]
     - Fix error that /mnt/user/(appdata) couldent be used.
+
+    [font size=4]2015.10.17[/font]
+    - Update to openvpn-as openvpn-as-2.0.21 
+
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
