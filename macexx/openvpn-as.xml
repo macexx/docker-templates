@@ -73,10 +73,10 @@
     [font size=4]2015.10.17[/font]
     - Update to openvpn-as openvpn-as-2.0.21
 
-    [font size=4]2015.10.17[/font]
+    [font size=4]2015.11.12[/font]
     - Added support for pipework (defaults to eth1 and port 443 instead of 9443)
 
-   [font size=4]2015.10.17[/font]
+    [font size=4]2015.12.16[/font]
     - Upgrade Phusion base-image.
   </Changes>
   <Date>2015-06-14</Date>
