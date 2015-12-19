@@ -78,6 +78,9 @@
 
     [font size=4]2015.12.16[/font]
     - Upgrade Phusion base-image.
+
+    [font size=4]2015.12.19[/font]
+    - Revert to previous Phusion base-image.(New image is bugged)
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
