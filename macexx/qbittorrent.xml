@@ -80,7 +80,7 @@
   <Banner>https://raw.githubusercontent.com/macexx/docker-templates/master/images/qbittorrent_icon.png</Banner>
   <Icon>https://raw.githubusercontent.com/macexx/docker-templates/master/images/qbittorrent_icon.png</Icon>
   <Beta>True</Beta>
-  <Category>Network:Other</Category>
+  <Category>Downloaders:</Category>
   <Changes>
     [center][font size=5]qBittorrent Change Log[/font][/center]
 
