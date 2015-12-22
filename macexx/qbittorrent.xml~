@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>OpenVPN-AS</Name>
+  <Description>
+    OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI,[br]
+        and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments. OpenVPN Access Server supports a wide range of configurations,[br]
+        including secure and granular remote access to internal network and/ or private cloud network resources and applications with fine-grained access control.[br]
+        This version includes two free user licenses.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/usr/local/openvpn_as[/b] This is where OpenVPN will store it´s configuration and data[br]
+    [br]
+    [b][span style='color: #E80000;']Notes[/span][/b][br]
+    [u]Environment Variables[/u][br]
+    Define a variable if there is any need to change listening interface(default is eth0),[br]
+        Click the Advanced view in the top right corner . [br]
+		Add a variable under Environment Variables: [br]
+		Variable Name: [b]INTERFACE[/b] Variable Value: [b]br0[/b] (example values: eth1, br0, bond0)[br][br]
+                Variable Name: [b]PIPEWORK[/b] Variable Value: [b]yes[/b] (Dont use INTERFACE varable when this is used defaults to eth1 inside the container)
+    [u]Installation[/u][br]
+        Default Username: [b][span style='color: #E80000;']"admin"[/span][/b] Password: [b][span style='color: #E80000;']"openvpn"[/span][/b].[br]
+    1. Go to https://your_ip/hostname:943/admin[br]
+    2. Ports 1194/udp 9443/tcp(443/tcp if PIPEWORK is enabled) needs to be forwarded and opened in your Firewall/Router. (1194/udp 9443/tcp can be changed in the WebUI)[br][br]
+        [u]Configuring OpenVPN Server[/u][br]
+        Go to https://openvpn.net/index.php/access-server/overview.html for HOWTO on setting it up.
+  </Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=40630.0</Support>
+  <Registry>https://registry.hub.docker.com/u/mace/openvpn-as/</Registry>
+  <GitHub>https://github.com/macexx/openvpn-as</GitHub>
+  <Repository>mace/openvpn-as</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+    <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>https://[IP]:[PORT:943]/admin</WebUI>
+  <Banner>http://i.imgur.com/rDp4Joi.png</Banner>
+  <Icon>http://img12.deviantart.net/63a9/i/2013/010/6/5/openvpn_icon_by_archeinre-d5r1nls.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Changes>
+    [center][font size=5]OpenVPN-AS Change Log[/font][/center]
+
+    [font size=4]2015.07.01[/font]
+    - Complete rewrite - Last code diden´t survive upgrades of openvpn and sometimes got corrupted on docker rebuilds. New code to better fit unRAID permissions and Phusion template. (Need to set a new config directory/ or clear old one- if upgrading).
+
+    [font size=4]2015.08.11[/font]
+    - Update Phusion base-iamge, Update to Openvpn-AS 2.0.20.
+	
+    [font size=4]2015.08.15[/font]
+    - Admin username changed, "admin" and password "openvpn".
+    - Default tcp port changed from 443 to 9443.
+    - All username/passvord variables removed, now uses internal database.
+    - "INTERFACE" variable added, fixes bond0 issues.
+    - openvpn is now running as nobody:users.
+
+    [font size=4]2015.10.7[/font]
+    - Fix error that /mnt/user/(appdata) couldent be used.
+
+    [font size=4]2015.10.17[/font]
+    - Update to openvpn-as openvpn-as-2.0.21
+
+    [font size=4]2015.11.12[/font]
+    - Added support for pipework (defaults to eth1 and port 443 instead of 9443)
+
+    [font size=4]2015.12.16[/font]
+    - Upgrade Phusion base-image.
+
+    [font size=4]2015.12.19[/font]
+    - Revert to previous Phusion base-image.(New image is bugged)
+  </Changes>
+  <Date>2015-06-14</Date>
+</Containers>
