@@ -81,6 +81,10 @@
 
     [font size=4]2015.12.19[/font]
     - Revert to previous Phusion base-image.(New image is bugged)
+
+    [font size=4]2015.12.24[/font]
+    - Phusion base-image.(Upgrade sys-log)
+    - Add apt-get upgrade for security updates should have been enabled along time ago
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
