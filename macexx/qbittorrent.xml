@@ -79,13 +79,16 @@
   <WebUI>http://[IP]:[PORT:8082]</WebUI>
   <Banner>https://raw.githubusercontent.com/macexx/docker-templates/master/images/qbittorrent_icon.png</Banner>
   <Icon>https://raw.githubusercontent.com/macexx/docker-templates/master/images/qbittorrent_icon.png</Icon>
-  <Beta>True</Beta>
+  <Beta>False</Beta>
   <Category>Downloaders:</Category>
   <Changes>
     [center][font size=5]qBittorrent Change Log[/font][/center]
 
     [font size=4]2015.12.22[/font]
     - First release.
+
+    [font size=4]2016.01.20[/font]
+    - Update to qbitTorrent 3.3.2	
   </Changes>
   <Date>2015-12-22</Date>
 </Containers>
