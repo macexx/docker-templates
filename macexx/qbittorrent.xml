@@ -92,6 +92,9 @@
 
     [font size=4]2016.01.20[/font]
     - Fix New dependecy for 3.3.2 (libqt5xml5)
+
+    [font size=4]2016.01.20[/font]
+     - Update to qbitTorrent 3.3.3 (new update while building the docker)
   </Changes>
   <Date>2015-12-22</Date>
 </Containers>
