@@ -95,6 +95,9 @@
 
     [font size=4]2016.01.20[/font]
      - Update to qbitTorrent 3.3.3 (new update while building the docker)
+
+    [font size=4]2016.01.20[/font]
+     - Fix wrong file name of .deb package
   </Changes>
   <Date>2015-12-22</Date>
 </Containers>
