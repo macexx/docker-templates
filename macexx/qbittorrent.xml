@@ -7,6 +7,7 @@
     [b]/config[/b] This is where qBittorrent will store it´s configuration[br]
     [b]/downloads[/b] This is where qBittorrent download torrents to[br]
     [b]/watched[/b] This is folder qBittorrent will look for torrents aka. "Blackhole", needs to be enabled in the webui[br]
+    [b]Default[/b] Username/Password is defualt (admin/adminadmin)[br]
     [br]
     [b][span style='color: #E80000;']Notes[/span][/b][br]
     [u]Environment Variables[/u][br]
