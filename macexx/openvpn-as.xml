@@ -94,6 +94,10 @@
 
     [font size=4]2016.05.22[/font]
     - Upgrade to Openvpn-as-2.1.0
+
+    [font size=4]2016.07.8[/font]
+    - Upgrade to Openvpn-as-2.1.2
+
   </Changes>
   <Date>2015-06-14</Date>
 </Containers>
