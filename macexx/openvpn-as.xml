@@ -28,7 +28,13 @@
   <Repository>mace/openvpn-as</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
-    <Networking>
+  <Environment>
+    <Variable>
+      <Value>eth0</Value>
+      <Name>INTERFACE</Name>
+    </Variable>
+  </Environment>
+  <Networking>
     <Mode>host</Mode>
     <Publish>
       <Port>
@@ -97,6 +103,10 @@
     [font size=4]2016.07.8[/font]
     - Upgrade to Openvpn-as-2.1.2
 
+    [font size=4]2017.11.19[/font]
+    - Move to phusion 0.9.22 (Ubuntu 16.04)
+    - Removed pipework support now that docker supports macvlan
+
   </Changes>
-  <Date>2015-06-14</Date>
+  <Date>2017-11-19</Date>
 </Containers>
