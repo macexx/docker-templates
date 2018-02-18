@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/macexx/docker-templates/master/macexx/eap-controller.xml</TemplateURL>
-  <Name>eap-controller</Name>
+  <Name>EAP Controller</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=40630.0</Support>
   <Project>https://www.tp-link.com/common/Spotlight/EAP_controller.html</Project>
   <Description>TP-LINK's free EAP Controller Software allows users to easily manage hundreds of TP-LINK EAPs in multiple sites with the controller in a single location.</Description>
