@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://github.com/macexx/docker-templates/blob/master/macexx/eap-controller.xml</TemplateURL>
+  <Beta>False</Beta>
+<Category>Network:Other</Category>
+  <Date>2018-02-16</Date>
+  <Changes>
+[center][font size=4]Eap Controller Change Log[/font][/center]
+[b]02.16.2018/b] Initial Release
+</Changes>
+  <Name>eap-controller</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=40630.0</Support>
+  <Description>TP-Link EAP Controller on a docker[br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where EAP-Controller should store settings files[br]
+  </Description>
+  <Overview>TP-Link EAP controller</Overview>
+<Project> https://www.tp-link.com/common/Spotlight/EAP_controller.html</Project>
+  <Registry>https://hub.docker.com/r/mace/eap-controller</Registry>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Environment>
+    <Variable>
+    </Variable>
+    <Variable>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish>
+  <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+   </Publish>
+</Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>https://[IP]:[PORT:8088/
+  <Icon>https://github.com/macexx/docker-templates/blob/master/images/TP-icon.jpg</Icon>
+</Container>
