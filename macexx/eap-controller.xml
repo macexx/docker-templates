@@ -10,7 +10,7 @@
   <BindTime>true</BindTime>
   <Privileged>yes</Privileged>
   <Beta>False</Beta>
-  <Category>Network:Management Tools:</Category>
+  <Category>Network:Other</Category>
   <Date>2018-02-18</Date>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/macexx/docker-templates/master/images/TP-icon.jpg'][/center]
 
@@ -24,7 +24,6 @@
   </Environment>
   <Networking>
     <Mode>host</Mode>
-    <Publish>
   </Networking>
   <Data>
     <Volume>
