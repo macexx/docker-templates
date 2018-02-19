@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/macexx/docker-templates/master/macexx/eap-controller.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/macexx/docker-templates/master/macexx/eapcontroller.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
   <Name>eap-controller</Name>
