@@ -6,7 +6,7 @@
   <Name>EAPcontroller</Name>
   <Project>https://www.tp-link.com/common/Spotlight/EAP_controller.html</Project>
   <Changes>
-[center][img width='150px' src='https://raw.githubusercontent.com/macexx/docker-templates/master/images/TP-icon.jpg'][/center]
+[center][img width='150px' src='https://raw.githubusercontent.com/macexx/docker-templates/master/images/tplink-icon.png'][/center]
 
 [center][font size=4]EAP Controller Change Log[/font][/center]
 
@@ -42,6 +42,6 @@
   </Data>
   <WebUI>https://[IP]:[PORT:8043]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/macexx/docker-templates/master/images/TP-icon.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/macexx/docker-templates/master/images/tplink-icon.png</Icon>
   <Config Name="Config Directory" Target="/config" Default="/mnt/cache/appdata/EAPcontroller" Mode="rw" Description="The host path needs to have a direct path, example /mnt/cache, /mnt/disk1 or mongodb cant start(cant handle unraids shfs)" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
