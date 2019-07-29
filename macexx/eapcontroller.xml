@@ -25,6 +25,12 @@
 
 [font size=3]2019.06.02[/font]
 - Upgrade to latest EAP-Controller (3.1.13)
+
+[font size=3]2019.07.29[/font]§
+- Remove unneded packages
+- Fix keytool syntax to propper.(PK12)
+- Upgrade to latest EAP-Controller (3.2.1)
+
   </Changes>
   <Overview>
     TP-LINK's free EAP Controller Software allows users to easily manage hundreds of TPLINK EAPs in multiple sites with the controller in a single location.[br][br]
